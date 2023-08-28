@@ -1,0 +1,45 @@
+body {
+    background-color: aliceblue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.container {
+    display: flex;
+    background-image: url(./images/v627-aew-11-technologybackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-width:100%;
+    justify-content: center;
+    align-items: end;
+    opacity: 0.8;
+    z-index: 3;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+#profile {
+    text-align: center;
+    background-color: #06609C;
+    opacity: 0.9;
+    color: white;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.profile {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
