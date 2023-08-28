@@ -41,5 +41,31 @@ nav li{
     display: flex;
     margin-bottom: 1rem;
 }
+.links {
+    display: flex;
+    justify-content: center;
+    
+}
+.social-container {
+    display: flex;
+    justify-items: center;
+    align-items: space-around;
+    height: 3rem;
+    background: #06609C;
+    margin-top: 0.5rem;
+    
+}
 
+.social img{
+    padding: 0.5rem;
+    max-height: 60%;
+    max-width: 60%;
+}
+
+.about {
+    text-align: center;
+    border-top: 3px solid grey;
+    margin-top: 1.5rem;
+    border-bottom: 3px grey;
+}
 
