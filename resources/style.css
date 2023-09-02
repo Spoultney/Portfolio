@@ -1,10 +1,21 @@
 body {
     background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+h2, h3 {
+    font-family: "Roboto bold 700", sans-serif;
 }
 header {
     display: flex;
     justify-content: space-between;
     z-index: 2;
+}
+header h1 {
+    font-family: "tangerine", cursive;
+    font-size: 2.5rem;
+    text-decoration: underline #06609C;
+    margin-left: 2rem;
+   
 }
 .container {
     display: flex;
@@ -21,13 +32,19 @@ header {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    
    
 
 }
 nav li{
-    text-decoration: none;
+    
     list-style: none;
     padding: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
 }
 #profile {
     text-align: center;
@@ -66,6 +83,52 @@ nav li{
     text-align: center;
     border-top: 3px solid grey;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     border-bottom: 3px grey;
+}
+.education h2{
+    text-align: center;
+}
+.education{
+    
+    border-top: 3px solid grey;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.name-form  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name {
+    margin-right: 1.5rem;
+}
+
+.surname {
+    margin-left: 1.5rem;
+}
+    
+
+.contact #submit {
+    margin-bottom: 1.5rem;
 }
 
