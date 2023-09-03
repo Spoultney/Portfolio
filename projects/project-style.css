@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+h2, h3 {
+    font-family: "Roboto bold 700", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+header h1 {
+    font-family: "tangerine", cursive;
+    font-size: 2.5rem;
+    text-decoration: underline #06609C;
+    margin-left: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+
+}
+nav li{
+    
+    list-style: none;
+    padding: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    background-image: url(../resources/images/v627-aew-11-technologybackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-width:100%;
+    justify-content: center;
+    align-items: end;
+    opacity: 0.8;
+    z-index: 3;
+}
+.profile img {
+    size: 75%;
+}
+#profile {
+    text-align: center;
+    background-color: #06609C;
+    opacity: 0.9;
+    color: white;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.profile {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.portfolio {
+    display: flex;
+    margin-top: 2rem;
+}
+.card {
+    display: flex;
+    border: 1px solid grey;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    height: fit-content;
+
+}
