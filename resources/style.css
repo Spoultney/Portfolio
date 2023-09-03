@@ -17,18 +17,7 @@ header h1 {
     margin-left: 2rem;
    
 }
-.container {
-    display: flex;
-    background-image: url(./images/v627-aew-11-technologybackground.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
-    min-width:100%;
-    justify-content: center;
-    align-items: end;
-    opacity: 0.8;
-    z-index: 3;
-}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -45,6 +34,22 @@ nav li{
 nav li a {
     text-decoration: none;
     color: inherit;
+}
+
+.container {
+    display: flex;
+    background-image: url(./images/v627-aew-11-technologybackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-width:100%;
+    justify-content: center;
+    align-items: end;
+    opacity: 0.8;
+    z-index: 3;
+}
+.profile img {
+    size: 75%;
 }
 #profile {
     text-align: center;
@@ -132,3 +137,43 @@ nav li a {
     margin-bottom: 1.5rem;
 }
 
+@media only screen and (max-width:425px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: .7rem;
+    }
+    h1 {
+        margin-bottom: -.5rem;
+        text-align: center;
+    }
+    
+    
+    
+    .profile {
+        display: flex;
+        margin-bottom: 1rem;
+        max-block-size: min-content;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.8rem;
+        justify-content: space-around;
+    }
+    .profile img{
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .name-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name {
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .surname {
+        margin-left: auto;
+    }
+}
